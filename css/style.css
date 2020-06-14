@@ -754,6 +754,10 @@ h3, .h3 {
   .pad_btm {
     padding-bottom: 70px;
   }
+
+  .Signup{
+    margin-left: 5%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -761,6 +765,10 @@ h3, .h3 {
 	============================================================================================ */
   .header_area .navbar-collapse {
     max-height: 250px;
+  }
+
+  .Signup{
+    margin-left: 5%;
   }
   /* End Main Menu Area css
 	============================================================================================ */
@@ -862,6 +870,10 @@ h3, .h3 {
   .hero-banner-sm h1 {
     font-size: 28px;
   }
+
+  .Signup{
+    margin-left: 5%;
+  }
 }
 
 .hero-banner-sm p {
@@ -892,6 +904,10 @@ h3, .h3 {
 @media (max-width: 620px) {
   .bg-shape::before {
     display: none;
+  }
+
+  .Signup{
+    margin-left: 5%;
   }
 }
 
@@ -987,6 +1003,10 @@ h3, .h3 {
   .service-card-img {
     padding-top: 20px;
     padding: 10px;
+  }
+
+  .Signup{
+    margin-left: 5%;
   }
 }
 
