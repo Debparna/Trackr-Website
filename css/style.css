@@ -21,6 +21,9 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
 }
 
 #mc_embed_signup{
@@ -1658,7 +1661,7 @@ h3, .h3 {
 }
 
 .single-recent-blog-post .thumb {
-  overflow: hidden;
+
 }
 
 .single-recent-blog-post .thumb img {
@@ -2689,7 +2692,7 @@ button.button {
 }
 
 .instafeed li {
-  overflow: hidden;
+
   width: 25%;
   margin-bottom: 0 !important;
 }
