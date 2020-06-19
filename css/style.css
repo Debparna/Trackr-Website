@@ -346,7 +346,7 @@ h3, .h3 {
 }
 
 .header_area.navbar_fixed .main_menu {
-  position: fixed;
+
   width: 100%;
   top: -70px;
   left: 0;
