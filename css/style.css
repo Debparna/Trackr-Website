@@ -4,7 +4,8 @@
 	============================================================================================ */
 /* google fonts
 	============================================================================================ */
-
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
 /* mixin start
 	============================================================================================ */
 /* Medium Layout: 1280px */
@@ -17,30 +18,16 @@
 	============================================================================================ */
 body {
   color: #888888;
-  font-family: "Avenir", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.667;
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
-#mc_embed_signup{
-  clear:left;
-  width:100%;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-input{
-  border: 1px solid #ccc;
-  background-color: white;
-  border-radius: 30px;
-  padding: 8px 25px;
 }
 
 a:hover {
@@ -62,14 +49,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Avenir", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #2a2a2a;
   line-height: 1.25;
 }
 
 h1,
 .h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 h2,
@@ -228,7 +215,7 @@ h3, .h3 {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-  font-family: "Avenir", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2a2a2a;
   text-transform: capitalize;
   font-weight: 500;
@@ -346,7 +333,7 @@ h3, .h3 {
 }
 
 .header_area.navbar_fixed .main_menu {
-
+  position: fixed;
   width: 100%;
   top: -70px;
   left: 0;
@@ -669,7 +656,7 @@ h3, .h3 {
   }
   .footer-bottom .footer-social {
     text-align: center;
-
+    margin-top: 15px;
   }
   /* End End Footer Area css
 	============================================================================================ */
@@ -756,10 +743,6 @@ h3, .h3 {
   .pad_btm {
     padding-bottom: 70px;
   }
-
-  .Signup{
-    margin-left: 5%;
-  }
 }
 
 @media (max-width: 480px) {
@@ -767,10 +750,6 @@ h3, .h3 {
 	============================================================================================ */
   .header_area .navbar-collapse {
     max-height: 250px;
-  }
-
-  .Signup{
-    margin-left: 5%;
   }
   /* End Main Menu Area css
 	============================================================================================ */
@@ -872,10 +851,6 @@ h3, .h3 {
   .hero-banner-sm h1 {
     font-size: 28px;
   }
-
-  .Signup{
-    margin-left: 5%;
-  }
 }
 
 .hero-banner-sm p {
@@ -906,10 +881,6 @@ h3, .h3 {
 @media (max-width: 620px) {
   .bg-shape::before {
     display: none;
-  }
-
-  .Signup{
-    margin-left: 5%;
   }
 }
 
@@ -985,6 +956,7 @@ h3, .h3 {
 /* section intro end
 	============================================================================================ */
 .service-card {
+  background: #f8f8ff;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1005,10 +977,6 @@ h3, .h3 {
   .service-card-img {
     padding-top: 20px;
     padding: 10px;
-  }
-
-  .Signup{
-    margin-left: 5%;
   }
 }
 
@@ -2578,11 +2546,12 @@ button.button {
 	============================================================================================ */
 .footer-area {
   background: #04091e;
+  padding-top: 60px;
 }
 
 @media (min-width: 1000px) {
   .footer-area {
-
+    padding-top: 110px;
   }
 }
 
@@ -2676,7 +2645,6 @@ button.button {
 }
 
 .instafeed {
-  overflow: hidden;
   margin: -5px;
 }
 
@@ -2856,13 +2824,13 @@ button.button {
 
 .footer-bottom {
   padding: 18px 0;
-
+  margin-top: 30px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @media (min-width: 1000px) {
   .footer-bottom {
-
+    margin-top: 70px;
   }
 }
 
