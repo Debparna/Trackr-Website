@@ -1127,11 +1127,7 @@ label {
  transition: all 0.3s ease 0s;
 }
 
-#top-button{
-	font-size: 25%;
-	padding: 4px 15px;
-	margin-left: 6%;
-}
+
 
 .button:active {
 	outline: 0
@@ -1602,6 +1598,12 @@ label {
 	.hero-cta .button {
 		width: 100%;
 		max-width: 280px
+	}
+
+	.button{
+		font-size: 50%;
+		padding: 4px 15px;
+		margin-left: 6%;
 	}
 }
 
