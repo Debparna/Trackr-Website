@@ -1128,7 +1128,9 @@ label {
 }
 
 #top-button{
-	font-size: 5%;
+	font-size: 25%;
+	padding: 4px 15px;
+	margin-left: 6%;
 }
 
 .button:active {
